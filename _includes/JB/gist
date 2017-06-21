@@ -6,9 +6,9 @@ Usage:
   3) specify the gist_file parameter (OPTIONAL)
   example:
     <ul>
-  	  {% include JB/gist gist_id="fdcfeaba4f33c172828d" %}
-  	  {% include JB/gist gist_id="fdcfeaba4f33c172828d" gist_file="jekyll-bootstrap.js" %}
-  	</ul>
+      {% include JB/gist gist_id="fdcfeaba4f33c172828d" %}
+      {% include JB/gist gist_id="fdcfeaba4f33c172828d" gist_file="jekyll-bootstrap.js" %}
+    </ul>
 -->{% endcomment %}
 
 <div id="gist">
