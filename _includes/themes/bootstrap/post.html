@@ -1,0 +1,56 @@
+<div class="row page-header">
+	<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+    <h1>{{ page.title }} <small class="pull-right">{{ page.date | date_to_long_string }}</small></h1>
+  </div>
+</div>
+
+<div class="row">
+	<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+
+    {% unless page.tags == empty %}
+      <ul class="tag_box pull-right">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+      </ul>
+    {% endunless %}
+
+    <!-- <h4>Published</h4>
+    <div class="date"><span>{{ page.date | date_to_long_string }}</span></div> -->
+
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+    {{ content }}
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="text-center">
+    <div class="btn-group">
+
+      {% if page.previous %}
+        <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}" class="btn btn-default">&larr; Previous</a>
+      {% else %}
+        <a class="btn btn-default disabled">&larr; Previous</a>
+      {% endif %}
+        <a href="{{ BASE_PATH }}{{ site.JB.archive_path }}" class="btn btn-default">Archive</a>
+      {% if page.next %}
+        <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}" class="btn btn-default">Next &rarr;</a>
+      {% else %}
+        <a class="btn btn-default disabled">Next &rarr;</a>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="row">
+	<div class="span14">
+  {% include JB/comments %}
+    <hr>
+  </div>
+</div> -->

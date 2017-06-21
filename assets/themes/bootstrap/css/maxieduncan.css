@@ -1,0 +1,72 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+p img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  padding: 10px;
+}
+
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 10px 10px 10px;
+}
+
+.tag_box {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.tag_box li {
+  display: inline-block;
+}
+
+
+.header {
+	background-color: black;
+	padding: 10px;
+	color: #BBB;
+}
+
+.nav {
+  font: medium "Titillium Web",Roboto, Helvetica, Arial, sans-serif;
+	margin: 0px;
+  font-size: 32px;
+}
+
+.nav a {
+  color: #FFF;
+  text-decoration: none;
+  margin-right: 11px;
+
+}
+.nav a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+.nav a.active {
+    color: #00B7FF;
+}
+
+// Mobile phone portrait
+.nav @media screen and (max-device-width: 640px){
+  font-size: 14px;
+}
+
+.pagination {
+  float: none;
+    margin: 0 auto;
+}
