@@ -1,3 +1,11 @@
+---
+layout: post
+category : events
+tagline: "Google Cloud Next 2017"
+tags : [event, google, cloud]
+---
+{% include JB/setup %}
+
 # Google Cloud Next London 2017
 I'm writing this a bit after the event but think it's worthwhile before it entirely slips my mind. 
 
