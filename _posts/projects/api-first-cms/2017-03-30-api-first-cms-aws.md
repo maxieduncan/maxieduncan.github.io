@@ -1,7 +1,7 @@
 ---
 layout: post
 category : projects
-tagline: "API first CMS: AWS API Gateway, Lambda & DynamoDB"
+title: "API first CMS: AWS API Gateway, Lambda & DynamoDB"
 tags : [api, apigateway, aws, cms, dynamodb, lambda, nodejs, REST, swagger]
 ---
 {% include JB/setup %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 category : solarnetwork
-tagline: "SolarDRAS Development Setup on OSX"
+title: "SolarDRAS Development Setup on OSX"
 tags : [solarnetwork, dras]
 ---
 {% include JB/setup %}

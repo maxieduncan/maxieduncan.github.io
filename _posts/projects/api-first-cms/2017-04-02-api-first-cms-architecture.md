@@ -1,8 +1,8 @@
 ---
 layout: post
 category : projects
-tagline: "API first CMS: Architecture"
-tags : [api, cms, nodes, reactjs, swagger]
+title: "API first CMS: Architecture"
+tags : [api, cms, aws, docker]
 ---
 {% include JB/setup %}
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 category : projects
-tagline: "API first CMS"
+title: "API first CMS"
 tags : [api, cms, nodes, reactjs, swagger]
 ---
 {% include JB/setup %}
@@ -40,5 +40,3 @@ There is a lot of required functionality that I'm not planning to build out here
 * I18n of application
 * Support for i18n of content
 * Personalisation of content - may not require direct implementation, potentially just config for content sourced from external API
-
-

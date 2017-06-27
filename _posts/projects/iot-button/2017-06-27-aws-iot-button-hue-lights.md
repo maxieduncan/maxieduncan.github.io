@@ -1,7 +1,8 @@
 ---
 layout: post
 category : projects
-tagline: "Viva Tech 2017"
+title: "AWS IoT Button: Hue Lights"
+tagline: "AWS IoT Button: Hue Lights"
 tags : [aws, iot, lambda]
 ---
 {% include JB/setup %}

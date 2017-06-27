@@ -11,7 +11,7 @@ I've gone through a number of these over the years and as of 2017 this is the mo
 
 <div class="table-responsive">
   <table class="table table-striped">
-    <tr><th>Post</th><th>Date</th><th>Category</th><th style="width:40%">Tags</th></tr>
+    <tr><th>Post</th><th style="width:12%">Date</th><th>Category</th><th style="width:40%">Tags</th></tr>
     {% for post in site.posts %}
       <tr>
         <td><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></td>
