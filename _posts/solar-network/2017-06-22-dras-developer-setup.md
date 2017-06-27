@@ -6,7 +6,6 @@ tags : [solarnetwork, dras]
 ---
 {% include JB/setup %}
 
-# SolarDRAS Development Setup on OSX
 I recently did a small piece of work on [SolarNetwork](https://github.com/SolarNetwork/solarnetwork/wiki) and had to set up my environment again. This is very well documented on the wiki: [Developer Guide](https://github.com/SolarNetwork/solarnetwork/wiki/Developer-Guide) but I thought I'd put together a quick guide on how to get up and running quickly on Mac OSX.
 
 Prerequisites:
