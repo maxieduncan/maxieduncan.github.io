@@ -1,7 +1,7 @@
 ---
 layout: post
 category : events
-tagline: "AWS Summit London 2017"
+title: "AWS Summit London 2017"
 tags : [event, aws, cloud]
 ---
 {% include JB/setup %}

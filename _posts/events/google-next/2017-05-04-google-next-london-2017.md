@@ -1,7 +1,7 @@
 ---
 layout: post
 category : events
-tagline: "Google Cloud Next London 2017"
+title: "Google Cloud Next London 2017"
 tags : [event, google, cloud]
 ---
 {% include JB/setup %}
