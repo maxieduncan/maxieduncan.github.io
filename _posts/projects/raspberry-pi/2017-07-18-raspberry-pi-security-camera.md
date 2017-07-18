@@ -6,7 +6,6 @@ tags : [raspberrypi, aws, iot, route53]
 ---
 {% include JB/setup %}
 
-# Raspberry Pi Security Camera
 I was looking at buying a security camera for home so I could monitor what was going on when I'm out and wasn't particularly taken with the options. There are plenty out there but most of the decent ones aren't cheap and require a subscription; not ideal as who knows how long these companies will actually stick around. Additionally, as this isn't something I need but simply would be nice to have, I wasn't interested in signing up for these services.
 
 So I decided this would be a great Raspberry Pi project. A quick Google showed plenty of tutorials out there on how to set one up but I plan to add my own requirements. What I have in mind:
