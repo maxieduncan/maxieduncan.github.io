@@ -55,6 +55,10 @@ My modified script just allows me to pass in the Zone ID and Record Set Name as 
 
 ```
 #!/bin/bash
+#
+# Modified version of the script provided by Will Warren at:
+# https://willwarren.com/2014/07/03/roll-dynamic-dns-service-using-amazon-route53/
+#
 
 # Hosted Zone ID e.g. BJBK35SKMM9OE
 ZONEID=$1
