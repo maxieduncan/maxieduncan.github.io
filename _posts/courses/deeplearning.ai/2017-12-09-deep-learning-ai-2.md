@@ -1,6 +1,6 @@
 ---
 layout: post
-category : course
+category : courses
 title: "Deeplearning.ai Notes: Improving Deep Neural Networks"
 tags : [course, notes, ml]
 ---

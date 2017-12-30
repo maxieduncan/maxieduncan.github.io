@@ -1,12 +1,12 @@
 ---
 layout: post
-category : cloudcommerce
+category : projects
 title: "Commerce Wizard PoC"
 tags : [commerce, cloud, poc, angular2, aws, apigateway, cloudformation]
 ---
 {% include JB/setup %}
 
-I've had a bit of a play at building my [Commerce Wizard](http://blog.maxieduncan.co.nz/projects/2017/07/27/commerce-wizard) creating a simple [Proof of Concept](http://commerce-wizard.s3-website-eu-west-1.amazonaws.com).  It's functional enough as a PoC and you get the idea but there's plenty more that could be added and refined; I've also only put together a minimal set of data to demo it. Chose Angular2 as the framework because it seemed like a good opportunity to learn something new and I've got to know CloudFormation a bit better.
+I've had a bit of a play at building my [Commerce Wizard](http://blog.maxieduncan.co.nz/cloudcommerce/2017/07/27/commerce-wizard) creating a simple [Proof of Concept](http://commerce-wizard.s3-website-eu-west-1.amazonaws.com).  It's functional enough as a PoC and you get the idea but there's plenty more that could be added and refined; I've also only put together a minimal set of data to demo it. Chose Angular2 as the framework because it seemed like a good opportunity to learn something new and I've got to know CloudFormation a bit better.
 
 It certainly seems like a viable idea though the benefits of the actual application are pretty limited. Any real advantage would be gained by building up a library of reusable CloudFormation templates rather than in the actual wizard itself, though it certainly does make them easier to combine together.
 
@@ -26,7 +26,7 @@ It's also an interesting exercise to think how this could be used to help a CI/C
 ### Environments
 There's potential to have a variety of templates to create temporary stacks for development and testing purposes, in addition to the more regular stacks for Production, Test and Development environments.
 
-[image:./A80AA4FD-CB4E-42F0-B169-A20DBD37F4BD.png]
+![Cloud Wizard Environments](./Cloud-Wizard-Environments.png)
 
 #### Shared Services
 For development and testing, to reduce the number of cloud resources being created it would make sense to have shared stack/s that can be proxied to, rather than duplicating all the services and their end points for each stack that is created.

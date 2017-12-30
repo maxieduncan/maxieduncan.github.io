@@ -1,6 +1,6 @@
 ---
 layout: post
-category : cloudcommerce
+category : projects
 title: "Commerce Wizard"
 tags : [commerce, cloud, aws, apigateway, cloudformation]
 ---
@@ -15,14 +15,14 @@ I've been thinking recently about how you’d put together a Commerce applicatio
 * use AWS Cloud Formation to quickly role out a new stack
 
 This led me to put together this basic diagram:
-[image:./Architecture.png]
+![Cloud Commerce Architecture.png](./Cloud-Commerce-Architecture.png)
 
 The thought here was that you’d have different Cloud Formation templates ready to role out based on the products/services being used, using API Gateway to provide a single access point for the front end applications.
 
 ## Commerce Wizard
 What I’ve started thinking is that it would actually be quite useful to a have a wizard that lets you select the products/services (defined in a JSON configuration file) that you want to use and then generates a Cloud Formation template that can be used to launch a full commerce stack.
 
-[image:./6710085E-D331-4F18-A111-FFE4E6D6A061.png]
+![Commerce Wizard Steps.png](./Commerce-Wizard-Steps.png)
 
 I see there essentially being four major steps to this wizard:
 
@@ -153,7 +153,7 @@ What else could be built out to support this:
 ## Appendix A
 What the Commerce Wizard could look like:
 
-[image:./4833619E-4FBF-4CEC-BB60-D46A27CDFDB7.png]
+![Commerce Wizard Mock](./Commerce-Wizard-Mock.png)
 
 ## Appendix B
 What the JSON configuration for the Commerce Wizard could look like:

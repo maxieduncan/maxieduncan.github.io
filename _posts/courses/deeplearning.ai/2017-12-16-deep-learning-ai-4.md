@@ -1,7 +1,7 @@
 ---
 layout: post
-category : course
-title: "Deeplearning.ai: Convolutional Neural Networks Notes"
+category : courses
+title: "Deeplearning.ai Notes: Convolutional Neural Networks"
 tags : [course, notes, ml]
 ---
 {% include JB/setup %}

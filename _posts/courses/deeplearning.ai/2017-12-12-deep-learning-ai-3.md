@@ -1,6 +1,6 @@
 ---
 layout: post
-category : course
+category : courses
 title: "Deeplearning.ai Notes: Structuring Machine Learning Projects"
 tags : [course, notes, ml]
 ---

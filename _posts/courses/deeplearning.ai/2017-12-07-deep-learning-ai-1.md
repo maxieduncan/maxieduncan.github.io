@@ -1,6 +1,6 @@
 ---
 layout: post
-category : course
+category : courses
 title: "Deeplearning.ai Notes: Neutral Networks & Deep Learning"
 tags : [course, notes, ml]
 ---
