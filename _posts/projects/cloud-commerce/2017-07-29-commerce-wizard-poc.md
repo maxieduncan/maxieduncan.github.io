@@ -6,7 +6,7 @@ tags : [commerce, cloud, poc, angular2, aws, apigateway, cloudformation]
 ---
 {% include JB/setup %}
 
-I've had a bit of a play at building my [Commerce Wizard](http://blog.maxieduncan.co.nz/projects/2017/07/27/commerce-wizard) creating a simple [Proof of Concept](http://commerce-wizard.s3-website-eu-west-1.amazonaws.com).  It's functional enough as a PoC and you get the idea but there's plenty more that could be added and refined; I've also only put together a minimal set of data to demo it. Chose Angular2 as the framework because it seemed like a good opportunity to learn something new and I've got to know CloudFormation a bit better.
+I've had a bit of a play at building my [Commerce Wizard](http://blog.maxieduncan.co.nz/projects/2017/07/27/commerce-wizard) creating a simple [Proof of Concept](http://commerce-cloud-wizard.s3-website-us-east-1.amazonaws.com).  It's functional enough as a PoC and you get the idea but there's plenty more that could be added and refined; I've also only put together a minimal set of data to demo it. Chose Angular2 as the framework because it seemed like a good opportunity to learn something new and I've got to know CloudFormation a bit better.
 
 It certainly seems like a viable idea though the benefits of the actual application are pretty limited. Any real advantage would be gained by building up a library of reusable CloudFormation templates rather than in the actual wizard itself, though it certainly does make them easier to combine together.
 
