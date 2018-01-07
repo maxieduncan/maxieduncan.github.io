@@ -1,6 +1,6 @@
 ---
 layout: post
-category : cloud-commerce
+category : commerce
 title: "Cloud Commerce"
 tags : [commerce, cloud, aws, apigateway, cloudformation]
 ---
@@ -72,7 +72,7 @@ For some customers the ability to deploy a product into their own environment ra
 
 ## What to build?
 * [Cloud Template Generator](http://blog.maxieduncan.co.nz/projects/2017/07/27/commerce-wizard): SPA to generate Cloud Templates for AWS, likely GCP, maybe others?
-* [Layout Engine](http://blog.maxieduncan.co.nz/cloud-commerce/2017/11/04/layout-engine): Helps decouple the frontend applications from the backend services while providing the business with control over content and layout
+* [Layout Engine](http://blog.maxieduncan.co.nz/commerce/2017/11/04/layout-engine): Helps decouple the frontend applications from the backend services while providing the business with control over content and layout
 * Frontend application: Decoupled frontend application that makes use of the API provided by the API Gateway
 * Site management: Application to manage "site" configuration, an important concept to build in early on
 * Common Commerce API: It may not be practical but, having a common interface that you can switch out the services provided for would be powerful

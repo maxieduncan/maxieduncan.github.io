@@ -1,6 +1,6 @@
 ---
 layout: post
-category : cloud-commerce
+category : commerce
 title: "Layout Engine"
 tags : [commerce, cloud, aws, apigateway, cloudformation]
 ---
