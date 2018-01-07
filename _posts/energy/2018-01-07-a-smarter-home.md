@@ -1,6 +1,6 @@
 ---
 layout: post
-category : solarnetwork
+category : energy
 title: "A Smarter Home"
 tags : [energy, thoughts, greenstage, solarnetwork]
 ---
