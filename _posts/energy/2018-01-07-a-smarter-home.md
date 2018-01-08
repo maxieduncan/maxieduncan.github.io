@@ -26,7 +26,7 @@ Assuming a variable local energy source such as solar, local storage also helps 
 
 The other benefit mentioned earlier is resiliency in the face of blackouts or brownouts, though without local generation this is very much dependent on the amount of local storage and length of the outage.
 
-Even without a battery pack installed there's potential for electric cars to be used for energy storage, though this isn't a simple equation, as they still need to be available for transport and the technology isn't quite at a state to make it practical.
+Even without a battery pack installed there's potential for electric cars to be used for energy storage, though this isn't a simple equation, as they still need to be available for transport and the technology isn't quite at a state to make it practical; indeed it may never be as car batteries use slightly different cell chemistry to battery packs due to the different performance requirements.
 
 ## Demand Response
 Demand Response is where changes in a users consumptions are made in response to limited supply, typically caused by high demand, on the grid. This is often reflected by a higher price for electricity so there is motivation for consumers to reduce their demand during these periods. How this change in price is communicated to end users and how their demand is reduced is something that's ripe for improvement and dependent on your utilities offerings.
@@ -34,16 +34,16 @@ Demand Response is where changes in a users consumptions are made in response to
 ## Smart Devices
 Homes are slowly filling up with "Smart" devices that offer a modicum of automation and power saving but the potential remains much more promising than the reality.
 
-The most beneficial smart device readily available is the smart thermostat. Devices like the Nest will automatically change the temperature based on your preferences and schedule. This is important, as heating and cooling a home make up the majority of most homes power consumption. These devices however are not typically aware of the needs of the grid, they are after all user centric devices that may help lower consumption but don't do a lot to avoid peak times on the grid and, as most people follow similar patterns in consumption they typically increase demand at the same time.
+The most beneficial smart device readily available is the smart thermostat. Devices like the Nest will automatically change the temperature based on your preferences and schedule and some, such as Nest, even support demand response allowing utilities to change your settings based on the grids current demand and supply. This is important, as heating and cooling a home make up the majority of most homes power consumption.
 
 The other smart devices tend to be less beneficial. Smart light bulbs offer some benefits in the way of automation such as turning on and off at scheduled times or when you leave the house or get home. Mostly they mean you don't have to get off the couch to switch the light. Smart speakers are almost entirely about convenience and less wires. Smart switches have some potential but they're binary options, they're either on or off; so while they can offer automation to turn devices on or off at certain times or remotely via an app, they're not as useful to schedule intensive activities at beneficial times, such as when the grid prices are at their lowest.
 
-To really get there you need smart appliances that can be controlled remotely via a smart home hub. For example fridges and freezers that can be turned down when not in use or during peak demand; washers and driers that can be made to delay their cycles if grid prices are peaking; thermostats that react not only to user preferences but also to the current supply and demand of electricity.
+Many of these devices are not typically aware of the needs of the grid, they are after all user centric devices that may help lower consumption but don't do a lot to avoid peak times on the grid and, as most people follow similar patterns in consumption they typically increase demand at the same time. To really get there you need smart appliances that can be controlled remotely via a smart home hub. For example fridges and freezers that can be turned down when not in use or during peak demand; washers and driers that can be made to delay their cycles if grid prices are peaking; thermostats that react not only to user preferences but also to the current supply and demand of electricity.
 
 ## Smart Meters
 Smart meters are installed by utilities to allow them to view real time (typically hourly) consumption and bill accordingly. They also potentially allow utilities to control users consumption to reduce demand during peak times, though this is something that naturally consumers are not comfortable with.
 
-Ideally smart meters should provide a utility with an ideal opportunity to communicate with consumers about their consumption habits and when the peak times are that they can reduce consumption when prices are high; there aren't many examples out there where this has been well done.
+Ideally smart meters should provide a utility with an opportunity to communicate with consumers about their consumption habits, when the peak times are that they can reduce consumption and when prices are high; there aren't many examples out there where this has been well done.
 
 ## User Experience
 So ideally what you want is some local generation, local storage and smart devices that when combined provide the ability to reduce consumption from the gird during peak times.
@@ -68,9 +68,9 @@ There are a number of points where I show predictions of future consumption, gen
 
 For example a weather forecast for cold cloudy weather could cause you to use the grid to maximise local storage even though prices are higher than normal, so that you benefit later from what you expect to be even higher prices during the cold and cloudy period.
 
-Another use would be determining if it's best to store or sell excess locally generated electricity, though this would be dependent on the services offered by the utility (e.g. if they have dynamic pricing or simply scheduled windows). Equally choosing whether to charge local storage from the grid, local generation or to not charge at all.
+Another use would be determining if it's best to store or sell excess locally generated electricity, though this would be dependent on the services offered by the utility (e.g. if they have dynamic pricing or simply scheduled windows). Equally choosing whether it's best to recharge local storage using the grid, local generation or to simply not.
 
-Machine learning would not only make these predictions available, but could potentially use them determine the best usage patterns. The outcomes we want to encourage are primarily a reduced electricity bill and secondarily reduced consumption, machine learning has the potential to identify these patterns much more reliably.
+Machine learning would not only make these predictions available, but could potentially use them to determine the best usage patterns. The outcomes we want to encourage are primarily a reduced electricity bill and secondarily reduced consumption, machine learning has the potential to identify these patterns much more reliably.
 
 ### Smart Devices
 For the smart devices I've put in a very minimal interface. Ideally such devices would be auto discovered on the network and show up in the interface automatically; in reality security constraints and the diverse selection of devices available could make this impractical.
@@ -81,5 +81,7 @@ Most smart devices already offer their own apps that allow them to be controlled
 The [SolarNetwork](https://github.com/SolarNetwork)  project on GitHub is an open source platform that offers most of the pieces needed to realise this, indeed it's one of the main reasons the project was created in the first place.
 
 >SolarNetwork is a modern platform for energy management development. Capable of capturing energy information from a variety of sources, storing that information and beautifully visualising it the way you want to. SolarNetwork is 100% open-source, and focuses on the integration of distributed renewable energy sources. It’s built to be massively scalable, incredibly configurable and easy to adopt.  SolarNetwork is built for organisations who want to study and manage energy use and generation from a distributed set of assets, report on those assets and even control their behaviour remotely.
+
+Projects such as [openHAB](https://www.openhab.org) already do a lot to offer home automation and hopefully at some point SolarNetwork will provide integrations with them.
 
 The continuing drop in prices for both PV and battery storage, the increasing demand for green solutions to reduce the impact of global warming, all make this an evermore practical and needed solution.
