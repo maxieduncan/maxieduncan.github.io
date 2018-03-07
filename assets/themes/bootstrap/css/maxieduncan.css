@@ -115,6 +115,7 @@ footer {
 .twitter-share-button-local i {
 	position: relative;
 	top: 2px;
+	left: -2px;
 	display: inline-block;
 	width: 14px;
 	height: 14px;
