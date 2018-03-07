@@ -10,7 +10,7 @@ The [Eclipse IDE](eclipse.org) provides a nice interface via the preferences to 
 
 Fortunately almost everything in Eclipse is managed in plugin configuration and with a bit of digging you can identify the files in question and what properties need to be set. The [gist](https://gist.github.com/maxieduncan/db6f3c7aef1baeafe78fca691c3a6926) below shows some of these configuration options, including the ones that load the XML files that contain your code templates and formatting rules.
 
-<script src="https://gist.github.com/maxieduncan/231d441eb5d4c0a0f0bbefb6c40b7b24.js"></script>
+<script src="https://gist.github.com/maxieduncan/db6f3c7aef1baeafe78fca691c3a6926.js"></script>
 
 I've worked on a project before which used gradle for the build system and we had a much more robust and easier to maintain plugin to  manage this configuration, especially in regards to the XML management. In SolarNetwork we're relying on shell scripting currently and while the snippet above works for our current configuration, I'm not as confident in it's ability to handle edge cases.
 
