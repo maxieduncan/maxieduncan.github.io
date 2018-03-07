@@ -61,11 +61,31 @@ footer {
     color: #00B7FF;
 }
 
+.social {
+	float:right;
+}
+
+.social img {
+	height: 37px;
+	width: 37px;
+	margin-left: 10px;
+}
+
 /* Mobile phone portrait */
 @media screen and (max-device-width: 640px) {
   .nav {
     font-size: 14px;
   }
+
+	.nav a {
+		margin-right: 5px;
+	}
+
+	.social img {
+		height: 20px;
+		width: 20px;
+		margin-left: 5px;
+	}
 }
 
 .pagination {
