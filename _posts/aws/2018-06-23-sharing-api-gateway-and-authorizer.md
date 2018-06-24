@@ -1,8 +1,8 @@
 ---
 layout: post
 category : aws
-title: "Sharing API Gateway and API Resources"
-tags : [aws, apigateway, lambda, serverless]
+title: "Sharing API Gateway and Authorizer"
+tags : [aws, apigateway, lambda, serverless, cloudformation]
 ---
 {% include JB/setup %}
 
@@ -37,7 +37,7 @@ resources:
           Ref: SharedApiGateway
         Type: COGNITO_USER_POOLS
         ProviderARNs:
-          - ${env:PORTFOLIO_USERPOOL_ARN}
+          - ${env:USERPOOL_ARN}
 
   Outputs:
     apiGatewayRestApiId:
