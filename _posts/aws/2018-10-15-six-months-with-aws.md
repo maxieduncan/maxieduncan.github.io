@@ -1,7 +1,7 @@
 ---
 layout: post
 category : aws
-title: "Deploying HTTPS websites on AWS S3"
+title: "Six months with AWS"
 tags : [aws, s3, cloudfront, route53, react, mithril, lambda, apigateway, dynamodb, serverless, cloudformation, codebuild, codepipeline]
 ---
 {% include JB/setup %}
